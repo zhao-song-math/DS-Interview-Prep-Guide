@@ -48,7 +48,9 @@ def update_markdown_file(main_file, notes_dir):
             filename_title = title.replace(' ', '_')
             note_filename = f"{filename_title}.md"
             note_filepath = os.path.join(notes_dir, note_filename)
-            relative_note_path = os.path.join(os.path.basename(notes_dir), note_filename).replace('\\', '/')
+            
+            # 【修改】由于主文件和笔记文件在同一目录，相对路径就是文件名本身
+            relative_note_path = note_filename
 
             if os.path.exists(note_filepath):
                 lines_after_task1.append(f"{heading_prefix}[{title}]({relative_note_path})\n")
@@ -60,11 +62,21 @@ def update_markdown_file(main_file, notes_dir):
                     backlinks_match = re.search(r'## backlinks', note_content, re.IGNORECASE)
                     if backlinks_match:
                         backlinks_section = note_content[backlinks_match.end():]
-                        backlinks = re.findall(r'-\s+\[.*\]\(.*\)', backlinks_section)
-                        for backlink in backlinks:
-                            # 【修改】增加一个条件判断，忽略特定的backlink
-                            if "[Leetcode问题目录](Leetcode问题目录.md)" not in backlink:
-                                lines_after_task1.append(f"{backlink.strip()}\n")
+                        backlinks_lines = re.findall(r'-\s+\[.*\]\(.*\)', backlinks_section)
+                        for backlink_line in backlinks_lines:
+                            if "[Leetcode问题目录](Leetcode问题目录.md)" in backlink_line:
+                                continue
+
+                            link_parse_match = re.search(r'\[(.*)\]\((.*)\)', backlink_line)
+                            if link_parse_match:
+                                link_text = link_parse_match.group(1)
+                                original_path = link_parse_match.group(2)
+                                corrected_path = os.path.basename(original_path)
+                                corrected_backlink = f"- [{link_text}]({corrected_path})"
+                                lines_after_task1.append(f"{corrected_backlink}\n")
+                            else:
+                                lines_after_task1.append(f"{backlink_line.strip()}\n")
+
                 except Exception as e:
                     print(f"处理 backlinks 时出错 ({note_filepath}): {e}")
 
@@ -102,7 +114,10 @@ def update_markdown_file(main_file, notes_dir):
         for filename in sorted_problem_files:
             problem_title_base = os.path.splitext(filename)[0]
             formatted_title = problem_title_base.replace('-', '. ', 1)
-            link_path = os.path.join(os.path.basename(notes_dir), filename).replace('\\', '/')
+            
+            # 【修改】由于主文件和题目文件在同一目录，链接路径就是文件名本身
+            link_path = filename
+            
             link = f"- [{formatted_title}]({link_path})\n"
             new_problem_links.append(link)
             
@@ -120,8 +135,14 @@ def update_markdown_file(main_file, notes_dir):
 
 
 if __name__ == "__main__":
+    # 【修改】根据新的文件结构，重新计算所有路径
+    # 1. 获取脚本所在的 'docs' 目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # 2. 获取项目根目录 ('docs' 的上一级)
     project_dir = os.path.dirname(script_dir)
+
+    # 3. 构造 'Leetcode_notes' 目录和主文件的绝对路径
     notes_dir_path = os.path.join(project_dir, "Leetcode_notes")
     main_file_path = os.path.join(notes_dir_path, "Leetcode问题目录.md")
 

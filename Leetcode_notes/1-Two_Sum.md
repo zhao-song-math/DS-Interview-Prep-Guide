@@ -6,10 +6,7 @@ math: true
 
 [Leetcode ↗](https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/problems/two-integer-sum?list=blind75) 
 
-Easy  |  Array, Hash Table
-
-<font color="#66BB6A">**Easy**</font> | <span style="background-color:#E3F2FD; color:#1565C0; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Array</span> <span style="background-color:#E8F5E9; 
-color:#2E7D32; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Hash Table</span>
+<font color="#66BB6A">Easy</font> | <span style="background-color:#E3F2FD; color:#1565C0; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Array</span> <span style="background-color:#E8F5E9; color:#2E7D32; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Hash Table</span>
 
 ## Description
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.

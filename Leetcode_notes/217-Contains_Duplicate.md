@@ -2,8 +2,7 @@
 
 [Leetcode ↗](https://leetcode.com/problems/contains-duplicate/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/solutions/contains-duplicate)
 
-<font color="#66BB6A">**Easy**</font> | <span style="background-color:#E3F2FD; color:#1565C0; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Array</span> <span style="background-color:#E8F5E9; 
-color:#2E7D32; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Hash Table</span> <span style="background-color:#FFEBEE; color:#C62828; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Sorting</span>
+<font color="#66BB6A">Easy</font> | <span style="background-color:#E3F2FD; color:#1565C0; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Array</span> <span style="background-color:#E8F5E9; color:#2E7D32; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Hash Table</span> <span style="background-color:#FFEBEE; color:#B71C1C; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Sorting</span>
 
 ## Description
 Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.

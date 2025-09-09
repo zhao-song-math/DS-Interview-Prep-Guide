@@ -2,7 +2,7 @@
 
 [Leetcode ↗](https://leetcode.com/problems/valid-parentheses/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/solutions/valid-parentheses)
 
-<font color="#66BB6A">Easy</font> | <span style="background-color:#FFF3E0; color:#E65100; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">String</span> <span style="background-color:#EDE7F6; color:#512DA8; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Stack</span>
+<font color="#66BB6A">Easy</font> | <span style="background-color:#FFF8E1; color:#EF6C00; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">String</span> <span style="background-color:#FFEBEE; color:#C62828; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Stack</span>
 
 ## Description
 Given a string `s` containing just the characters `(`, `)`, `{`, `}`, `[` and `]`, determine if the input string is valid.
@@ -72,9 +72,9 @@ class Solution:
         return len(stack) == 0
 ```
         
-* Time complexity: $\mathcal{O}(n)$
+* Time complexity: \(\mathcal{O}(n)\)
   遍历了`s`里的所有元素
-* Space complexity: $\mathcal{O}(n)$
+* Space complexity: \(\mathcal{O}(n)$\)
   最糟糕的情况 `stack` 存满了 `s` 的所有元素。
 
 ## Backlinks

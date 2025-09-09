@@ -2,11 +2,7 @@
 
 [Leetcode ↗](https://leetcode.com/problems/valid-anagram/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/problems/is-anagram?list=blind75)
 
-<font color="#66BB6A">**Easy**</font> |
-<span style="background-color:#E8F5E9; 
-color:#2E7D32; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Hash Table</span>
-<span style="background-color:#FFF3E0; color:#E65100; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">String</span>
-<span style="background-color:#FFEBEE; color:#C62828; padding: 3px 8px; border-radius: 12px; font-size: 12px; font-weight: bold;">Sorting</span>
+<font color="#66BB6A">Easy</font> | <span style="background-color:#E8F5E9; color:#2E7D32; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Hash Table</span> <span style="background-color:#FFF8E1; color:#EF6C00; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">String</span> <span style="background-color:#FFEBEE; color:#B71C1C; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Sorting</span>
 
 
 ## Description

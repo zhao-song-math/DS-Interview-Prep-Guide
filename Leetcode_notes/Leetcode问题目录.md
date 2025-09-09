@@ -6,20 +6,19 @@
 
 ### Array 
 
-### [String](Leetcode_notes/String.md)
+### [String](String.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-### [List](Leetcode_notes/List.md)
+### [List](List.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
-### [Stack](Leetcode_notes/Stack.md)
+### [Stack](Stack.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
 ### Queue 
 
-### [Hash Table](Leetcode_notes/Hash_Table.md)
+### [Hash Table](Hash_Table.md)
 - [1. Two Sum](1-Two_Sum.md)
 - [217. Contains Duplicate](217-Contains_Duplicate.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-
 ### Heap (Priority Queue)
 
 ### Set 
@@ -38,7 +37,7 @@
 
 # 算法 
 
-### [Two Pointers](Leetcode_notes/Two_Pointers.md)
+### [Two Pointers](Two_Pointers.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [15. 3Sum](15-3Sum.md)
 ### Sliding Window 
@@ -59,9 +58,8 @@
 
 ### Binary Search
 
-### [Sorting](Leetcode_notes/Sorting.md)
+### [Sorting](Sorting.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-  
 ### Search 
 
 ### Math 
@@ -72,9 +70,9 @@
 
 
 # Leetcode问题目录
-- [1. Two_Sum](Leetcode_notes/1-Two_Sum.md)
-- [15. 3Sum](Leetcode_notes/15-3Sum.md)
-- [20. Valid_Parentheses](Leetcode_notes/20-Valid_Parentheses.md)
-- [125. Valid_Palindrome](Leetcode_notes/125-Valid_Palindrome.md)
-- [217. Contains_Duplicate](Leetcode_notes/217-Contains_Duplicate.md)
-- [242. Valid_Anagram](Leetcode_notes/242-Valid_Anagram.md)
+- [1. Two_Sum](1-Two_Sum.md)
+- [15. 3Sum](15-3Sum.md)
+- [20. Valid_Parentheses](20-Valid_Parentheses.md)
+- [125. Valid_Palindrome](125-Valid_Palindrome.md)
+- [217. Contains_Duplicate](217-Contains_Duplicate.md)
+- [242. Valid_Anagram](242-Valid_Anagram.md)
