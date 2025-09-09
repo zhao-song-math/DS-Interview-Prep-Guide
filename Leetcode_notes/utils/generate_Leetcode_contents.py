@@ -9,8 +9,8 @@ def update_markdown_file(main_file, notes_dir):
     根据笔记文件夹的内容，更新主Markdown文件，并避免重复添加任何内容。
 
     Args:
-        main_file (str): Leetcode问题目录.md 文件的路径。
-        notes_dir (str): Leetcode_notes 文件夹的路径。
+        main_file (str): Leetcode笔记目录.md 文件的路径。
+        notes_dir (str): notes 文件夹的路径。
     """
     try:
         with open(main_file, 'r', encoding='utf-8') as f:
@@ -31,12 +31,12 @@ def update_markdown_file(main_file, notes_dir):
             else:
                 skipping_old_backlinks = False
 
-        if line.strip() == '# Leetcode问题目录':
+        if line.strip() == '## Leetcode 问题目录':
             in_dsa_section = False
-        if line.startswith('# 数据结构') or line.startswith('# 算法'):
+        if line.startswith('## 数据结构') or line.startswith('## 算法'):
             in_dsa_section = True
 
-        match = re.match(r'^(###\s+)(.*)', line)
+        match = re.match(r'^(####\s+)(.*)', line)
         if in_dsa_section and match:
             heading_prefix = match.group(1)
             title = match.group(2).strip()
@@ -64,7 +64,7 @@ def update_markdown_file(main_file, notes_dir):
                         backlinks_section = note_content[backlinks_match.end():]
                         backlinks_lines = re.findall(r'-\s+\[.*\]\(.*\)', backlinks_section)
                         for backlink_line in backlinks_lines:
-                            if "[Leetcode问题目录](Leetcode问题目录.md)" in backlink_line:
+                            if "[Leetcode 笔记目录](Leetcode笔记目录.md)" in backlink_line:
                                 continue
 
                             link_parse_match = re.search(r'\[(.*)\]\((.*)\)', backlink_line)
@@ -90,13 +90,13 @@ def update_markdown_file(main_file, notes_dir):
     lines_after_task2 = []
     header_index = -1
     for i, line in enumerate(lines_after_task1):
-        if line.strip() == '# Leetcode问题目录':
+        if line.strip() == '## Leetcode 问题目录':
             header_index = i
             break
             
     if header_index == -1:
         lines_after_task2 = lines_after_task1
-        lines_after_task2.append('\n# Leetcode问题目录\n')
+        lines_after_task2.append('\n## Leetcode 问题目录\n')
         header_index = len(lines_after_task2) - 1
     else:
         lines_after_task2 = lines_after_task1[:header_index + 1]
@@ -143,8 +143,8 @@ if __name__ == "__main__":
     project_dir = os.path.dirname(script_dir)
 
     # 3. 构造 'Leetcode_notes' 目录和主文件的绝对路径
-    notes_dir_path = os.path.join(project_dir, "Leetcode_notes")
-    main_file_path = os.path.join(notes_dir_path, "Leetcode问题目录.md")
+    notes_dir_path = os.path.join(project_dir, "notes")
+    main_file_path = os.path.join(notes_dir_path, "Leetcode笔记目录.md")
 
     print("--- 路径信息 ---")
     print(f"项目根目录: {project_dir}")

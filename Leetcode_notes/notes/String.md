@@ -86,6 +86,6 @@ print(f"{lan} was born in {year}.")
 [^2]: [图灵星球](https://turingplanet.org/2019/08/22/%e5%8f%98%e9%87%8f-%e5%9f%ba%e7%a1%80%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/#zi_fu_chuan_String)
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)

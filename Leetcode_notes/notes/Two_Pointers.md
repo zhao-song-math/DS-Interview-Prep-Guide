@@ -11,6 +11,6 @@
 [^1]: [Towards Data Science](https://towardsdatascience.com/two-pointer-approach-python-code-f3986b602640/)
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [15. 3Sum](15-3Sum.md)

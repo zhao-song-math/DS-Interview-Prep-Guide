@@ -19,5 +19,5 @@
 * `sorted()`: Creates a new list, which can consume more memory, especially for large datasets.
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)

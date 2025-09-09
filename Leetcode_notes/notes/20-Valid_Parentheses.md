@@ -72,12 +72,12 @@ class Solution:
         return len(stack) == 0
 ```
         
-* Time complexity: \(\mathcal{O}(n)\)
+* Time complexity: $\mathcal{O}(n)$
   遍历了`s`里的所有元素
-* Space complexity: \(\mathcal{O}(n)$\)
+* Space complexity: $\mathcal{O}(n)$
   最糟糕的情况 `stack` 存满了 `s` 的所有元素。
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [List](List.md)
 - [Stack](Stack.md)

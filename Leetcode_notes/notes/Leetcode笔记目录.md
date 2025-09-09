@@ -1,75 +1,79 @@
 <!-- TOC -->
 
 <!-- /TOC -->
+# Leetcode 笔记目录
 
-# 数据结构
+---
 
-### Array 
+## 数据结构
 
-### [String](String.md)
+#### Array 
+
+#### [String](String.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-### [List](List.md)
+#### [List](List.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
-### [Stack](Stack.md)
+#### [Stack](Stack.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
-### Queue 
+#### Queue 
 
-### [Hash Table](Hash_Table.md)
+#### [Hash Table](Hash_Table.md)
 - [1. Two Sum](1-Two_Sum.md)
 - [217. Contains Duplicate](217-Contains_Duplicate.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-### Heap (Priority Queue)
+#### Heap (Priority Queue)
 
-### Set 
+#### Set 
 
-### Tree 
+#### Tree 
 
-### Binary Search Tree 
+#### Binary Search Tree 
 
-### Graph 
+#### Graph 
 
-### Union Find 
+#### Union Find 
 
-### Trie
+#### Trie
 
+---
 
+## 算法 
 
-# 算法 
-
-### [Two Pointers](Two_Pointers.md)
+#### [Two Pointers](Two_Pointers.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [15. 3Sum](15-3Sum.md)
-### Sliding Window 
+#### Sliding Window 
 
-### Recursion 
+#### Recursion 
 
-### Backtracking 
+#### Backtracking 
 
-### Breadth-First Search
+#### Breadth-First Search
 
-### Depth-First Search
+#### Depth-First Search
 
-### Divide & Conquer 
+#### Divide & Conquer 
 
-### Dynamic Programming 
+#### Dynamic Programming 
 
-### Greedy 
+#### Greedy 
 
-### Binary Search
+#### Binary Search
 
-### [Sorting](Sorting.md)
+#### [Sorting](Sorting.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
-### Search 
+#### Search 
 
-### Math 
+#### Math 
 
-### Bit Manipulation 
+#### Bit Manipulation 
 
-### Graph Algorithm
+#### Graph Algorithm
 
+---
 
-# Leetcode问题目录
+## Leetcode 问题目录
 - [1. Two_Sum](1-Two_Sum.md)
 - [15. 3Sum](15-3Sum.md)
 - [20. Valid_Parentheses](20-Valid_Parentheses.md)

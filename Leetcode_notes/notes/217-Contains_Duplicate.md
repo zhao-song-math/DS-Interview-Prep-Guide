@@ -82,5 +82,5 @@ class Solution:
 * Space complexity: $\mathcal{O}(n)$
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [Hash Table](Hash_Table.md)

@@ -85,10 +85,10 @@ class Solution:
 
 如果面试中不让用`isalnum()`来check字母和数字，可以如上自定义函数来check。
 
-* Time complexity: \(\mathcal{O}(n)\)
-* Space complexity: \(\mathcal{O}(1)\)
+* Time complexity: $\mathcal{O}(n)$
+* Space complexity: $\mathcal{O}(1)$
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [String](String.md)
 - [Two Pointers](Two_Pointers.md)

@@ -100,5 +100,5 @@ print(letters)
 [^2]: [图灵星球](https://turingplanet.org/2019/08/24/python%e6%95%b0%e6%8d%ae%e9%9b%86%e5%90%88%e7%b1%bb%e5%9e%8b-list-tuple-set-dictionary/)
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)

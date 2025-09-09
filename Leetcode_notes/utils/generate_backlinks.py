@@ -4,7 +4,7 @@ import os
 import re
 
 # notes 文件夹的路径（相对于 utils）
-NOTES_DIR = os.path.join(os.path.dirname(__file__), "../Leetcode_notes")
+NOTES_DIR = os.path.join(os.path.dirname(__file__), "../notes")
 
 # 将文件名转为链接显示格式（去掉扩展名，替换符号）
 def format_link_text(filename):
@@ -15,7 +15,7 @@ def format_link_text(filename):
 def collect_links():
     links = {}
     for fname in os.listdir(NOTES_DIR):
-        if fname.endswith(".md") and fname != "Leetcode问题目录.md":
+        if fname.endswith(".md") and fname != "Leetcode笔记目录.md":
             fpath = os.path.join(NOTES_DIR, fname)
             with open(fpath, "r", encoding="utf-8") as f:
                 content = f.read()
@@ -29,7 +29,7 @@ def collect_links():
 
 def update_files(backlinks):
     for fname in os.listdir(NOTES_DIR):
-        if fname.endswith(".md") and fname != "Leetcode问题目录.md":
+        if fname.endswith(".md") and fname != "Leetcode笔记目录.md":
             fpath = os.path.join(NOTES_DIR, fname)
             with open(fpath, "r", encoding="utf-8") as f:
                 content = f.read()
@@ -38,7 +38,7 @@ def update_files(backlinks):
             content = re.sub(r"\n*## Backlinks[\s\S]*", "", content).rstrip()
 
             # 构建新的 backlinks 部分
-            blines = [f"- [Leetcode问题目录](Leetcode问题目录.md)"]
+            blines = [f"- [Leetcode 笔记目录](Leetcode笔记目录.md)"]
 
             refs = sorted(set(backlinks.get(fname, [])))
             if refs:  # 只有在有其他反向链接时才追加

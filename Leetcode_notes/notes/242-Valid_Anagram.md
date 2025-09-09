@@ -70,7 +70,7 @@ class Solution:
 * Space complexity: $\mathcal{O}(1)$ 因为字典的长度取决于string里有多少不同的字母，最多有26个字母。
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [Hash Table](Hash_Table.md)
 - [Sorting](Sorting.md)
 - [String](String.md)

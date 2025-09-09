@@ -1,7 +1,3 @@
----
-math: true
----
-
 # 1. Two Sum 
 
 [Leetcode ↗](https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/problems/two-integer-sum?list=blind75) 
@@ -115,5 +111,5 @@ class Solution:
 * Space complexity: $\mathcal{O}(n)$
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [Hash Table](Hash_Table.md)

@@ -77,7 +77,7 @@ set和dict类似，也是一组key的集合，但不存储value。set可以看�
 ```
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [1. Two Sum](1-Two_Sum.md)
 - [217. Contains Duplicate](217-Contains_Duplicate.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)

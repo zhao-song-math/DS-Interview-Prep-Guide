@@ -19,4 +19,4 @@ You check if strings, lists, sets, and dictionaries are equal in Python using th
 | same order | same order | \ | \ |
 
 ## Backlinks
-- [Leetcode问题目录](Leetcode问题目录.md)
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
