@@ -1,0 +1,40 @@
+/* 此文档里是各种标签的样式定义 */
+
+/* 基础样式 */
+.badge {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 2px;
+  display: inline-block;
+}
+
+/* 数据结构类 */
+.array { background-color: #E8F5E9; color: #2E7D32; }
+.string { background-color: #E3F2FD; color: #1565C0; }
+.linkedlist { background-color: #FFF3E0; color: #EF6C00; }
+.stack { background-color: #F3E5F5; color: #6A1B9A; }
+.queue { background-color: #E1F5FE; color: #0277BD; }
+.heap { background-color: #FFFDE7; color: #F9A825; }
+.hashtable { background-color: #E8F5E9; color: #2E7D32; }
+.set { background-color: #FFEBEE; color: #C62828; }
+.tree { background-color: #F1F8E9; color: #558B2F; }
+.bst { background-color: #E0F7FA; color: #006064; }
+.graph { background-color: #FFF3E0; color: #EF6C00; }
+.unionfind { background-color: #F3E5F5; color: #6A1B9A; }
+.trie { background-color: #E3F2FD; color: #1565C0; }
+
+/* 算法类 */
+.twopointer { background-color: #E8F5E9; color: #2E7D32; }
+.slidingwindow { background-color: #E1F5FE; color: #0277BD; }
+.recursion { background-color: #FFFDE7; color: #F9A825; }
+.backtracking { background-color: #F3E5F5; color: #6A1B9A; }
+.divideconquer { background-color: #E3F2FD; color: #1565C0; }
+.dp { background-color: #FFF3E0; color: #EF6C00; }
+.greedy { background-color: #FFEBEE; color: #C62828; }
+.sorting { background-color: #F1F8E9; color: #558B2F; }
+.search { background-color: #E0F7FA; color: #006064; }
+.math { background-color: #FBE9E7; color: #D84315; }
+.bit { background-color: #E8EAF6; color: #303F9F; }
+.graphalgo { background-color: #FFFDE7; color: #F9A825; }
