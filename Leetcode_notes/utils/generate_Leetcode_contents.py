@@ -10,7 +10,7 @@ def update_markdown_file(main_file, notes_dir):
 
     Args:
         main_file (str): Leetcode笔记目录.md 文件的路径。
-        notes_dir (str): notes 文件夹的路径。
+        notes_dir (str): Leetcode_notes 文件夹的路径。
     """
     try:
         with open(main_file, 'r', encoding='utf-8') as f:
@@ -136,14 +136,15 @@ def update_markdown_file(main_file, notes_dir):
 
 if __name__ == "__main__":
     # 【修改】根据新的文件结构，重新计算所有路径
-    # 1. 获取脚本所在的 'docs' 目录
+    # 1. 获取脚本所在的 'utils' 目录
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # 2. 获取项目根目录 ('docs' 的上一级)
+    # 2. 获取项目根目录 ('utils' 的上一级)
     project_dir = os.path.dirname(script_dir)
 
     # 3. 构造 'Leetcode_notes' 目录和主文件的绝对路径
-    notes_dir_path = os.path.join(project_dir, "notes")
+    notes_dir_path = os.path.join(project_dir)
+    # notes_dir_path = os.path.join(project_dir, "Leetcode笔记目录.md")
     main_file_path = os.path.join(notes_dir_path, "Leetcode笔记目录.md")
 
     print("--- 路径信息 ---")

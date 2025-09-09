@@ -39,3 +39,6 @@
 <font color="#FF8F00">Medium</font>
 <font color="#FF0000">Hard</font>
 
+## Backlinks
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
+- [笔记生成操作](笔记生成操作.md)

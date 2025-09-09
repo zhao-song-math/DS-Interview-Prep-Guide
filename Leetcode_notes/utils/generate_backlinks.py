@@ -1,10 +1,12 @@
 # 正向索引：已经手动用 [Note](Note.md)编辑
 # 反向索引：此脚本自动在文件最后生成 [Note](Note.md)的反向索引
+
 import os
 import re
 
 # notes 文件夹的路径（相对于 utils）
-NOTES_DIR = os.path.join(os.path.dirname(__file__), "../notes")
+NOTES_DIR = os.path.dirname(os.path.abspath(__file__))
+# NOTES_DIR = os.path.join(os.path.dirname(__file__), "../Leetcode_notes")
 
 # 将文件名转为链接显示格式（去掉扩展名，替换符号）
 def format_link_text(filename):
