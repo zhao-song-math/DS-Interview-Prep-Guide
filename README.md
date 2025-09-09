@@ -33,7 +33,7 @@ This repository contains my study notes and code implementations for Data Scienc
 ## Part 5: Coding
 
 ### Data Structure and Algorithms
-- [我的刷题笔记](notes/Leetcode_Questions.md)
+- [我的刷题笔记](Leetcode_notes/Leetcode问题目录.md)
 - Concepts Review: [图灵星球](https://turingplanet.org/category/computer-science-%e7%bc%96%e7%a8%8b%e5%9f%ba%e7%a1%80/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e5%92%8c%e7%ae%97%e6%b3%95/)
 - [如何刷题](https://www.1point3acres.com/bbs/thread-746561-1-1.html)
 - Blind 75 Leeetcode Questions:
