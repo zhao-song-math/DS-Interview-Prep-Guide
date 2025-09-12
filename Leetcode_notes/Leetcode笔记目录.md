@@ -45,8 +45,7 @@
 - [15. 3Sum](15-3Sum.md)
 #### Sliding Window 
 
-#### Recursion 
-
+#### [Recursion](Recursion.md)
 #### Backtracking 
 
 #### Breadth-First Search
@@ -59,8 +58,7 @@
 
 #### Greedy 
 
-#### Binary Search
-
+#### [Binary Search](Binary_Search.md)
 #### [Sorting](Sorting.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
 #### Search 
@@ -77,6 +75,10 @@
 - [1. Two_Sum](1-Two_Sum.md)
 - [15. 3Sum](15-3Sum.md)
 - [20. Valid_Parentheses](20-Valid_Parentheses.md)
+- [21. Merge_Two_Sorted_Lists](21-Merge_Two_Sorted_Lists.md)
+- [33. Search_in_Rotated_Sorted_Array](33-Search_in_Rotated_Sorted_Array.md)
 - [125. Valid_Palindrome](125-Valid_Palindrome.md)
+- [153. Find_Minimum_in_Rotated_Sorted_Array](153-Find_Minimum_in_Rotated_Sorted_Array.md)
+- [206. Reverse_Linked_List](206-Reverse_Linked_List.md)
 - [217. Contains_Duplicate](217-Contains_Duplicate.md)
 - [242. Valid_Anagram](242-Valid_Anagram.md)

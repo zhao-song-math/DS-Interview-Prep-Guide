@@ -2,7 +2,9 @@
 
 [Leetcode ↗](https://leetcode.com/problems/valid-palindrome/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/problems/is-palindrome?list=blind75)
 
-<font color="#66BB6A">Easy</font> | <span style="background-color:#FFFDE7; color:#F9A825; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Two Pointers</span> <span style="background-color:#FFF8E1; color:#EF6C00; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">String</span>
+<font color="#66BB6A">Easy</font> 
+
+<span style="background-color:#FFFDE7; color:#F9A825; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Two Pointers</span> <span style="background-color:#FFF8E1; color:#EF6C00; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">String</span>
 
 ## Description
 A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
@@ -51,8 +53,8 @@ class Solution:
 ```
 
 创建新的 [string](String.md) 其中只包含字母和数字，然后再比较新string和它的reversed string 是否相同。
-* Time complexity: $\mathcal{O}(n)$
-* Space complexity: $\mathcal{O}(n)$
+* **Time complexity:** $\mathcal{O}(n)$
+* **Space complexity:** $\mathcal{O}(n)$
 
 
 ### 🟢 Solution 2： Two Pointers
@@ -85,8 +87,8 @@ class Solution:
 
 如果面试中不让用`isalnum()`来check字母和数字，可以如上自定义函数来check。
 
-* Time complexity: $\mathcal{O}(n)$
-* Space complexity: $\mathcal{O}(1)$
+* **Time complexity:** $\mathcal{O}(n)$
+* **Space complexity:** $\mathcal{O}(1)$
 
 ## Backlinks
 - [Leetcode 笔记目录](Leetcode笔记目录.md)

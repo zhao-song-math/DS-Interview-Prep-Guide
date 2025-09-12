@@ -11,7 +11,7 @@ list = list(('a', 'b', 'c'))
 print(len(letters))
 ```
 
-列表元素的**读取和更新**：
+#### 列表元素的读取和更新
 
 ```
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
@@ -23,7 +23,7 @@ if 'a' in letters:
     print("letter 'a' is in the list")
 ```
 
-**插入**：
+#### 插入
 list是一个可变的有序表，可以往list中追加元素到末尾：
 ```
 >>> list = ['apple', 'pear']
@@ -46,7 +46,7 @@ list是一个可变的有序表，可以往list中追加元素到末尾：
 ['apple', 'orange', 'pear', 'banana']
 ```
 
-**删除**：
+#### 删除
 要删除list末尾的元素，用`pop()`方法：
 ```
 >>> list.pop()
@@ -77,7 +77,7 @@ list是一个可变的有序表，可以往list中追加元素到末尾：
 ['kiwi]
 ```
 
-**列表的运算：**
+#### 列表的运算：
 
 ```
 list1, list2 = [1, 2, 3], [4, 5, 6]
@@ -85,7 +85,7 @@ print(list1 + list2) # [1, 2, 3, 4, 5, 6]
 print(list1 * 3) # [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 
-**列表的其他函数：**
+#### 列表的其他函数
 `sorted()`和`list.sort()`的差别可查看[[Python_Methods]]. 
 ```
 letters = ['a', 'g', 'f', 'b', 'c', 'd', 'e']

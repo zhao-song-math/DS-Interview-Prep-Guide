@@ -2,7 +2,9 @@
 
 [Leetcode ↗](https://leetcode.com/problems/two-sum/description/?envType=problem-list-v2&envId=xi4ci4ig) | [Neetcode ↗](https://neetcode.io/problems/two-integer-sum?list=blind75) 
 
-<font color="#66BB6A">Easy</font> | <span style="background-color:#E3F2FD; color:#1565C0; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Array</span> <span style="background-color:#E8F5E9; color:#2E7D32; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Hash Table</span>
+<font color="#66BB6A">Easy</font> 
+
+<span style="background-color:#E3F2FD; color:#1565C0; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Array</span> <span style="background-color:#E8F5E9; color:#2E7D32; padding:3px 8px; border-radius:12px; font-size:12px; font-weight:bold;">Hash Table</span>
 
 ## Description
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.
@@ -53,8 +55,8 @@ class Solution:
 ```
 
 对长度为`n`的数组求两数之和一共有${n \choose 2}$种组合，所以循环一共迭代${n \choose 2}$次，`dict`的尺寸也为${n \choose 2}$。
-* Time complexity: $\mathcal{O}(n^2)$
-* Space complexity: $\mathcal{O}(n^2)$
+* **Time complexity:** $\mathcal{O}(n^2)$
+* **Space complexity:** $\mathcal{O}(n^2)$
 
 ### 🟢 Solution 1: Hash Map (Two Pass)
 
@@ -73,8 +75,8 @@ class Solution:
 ```
 
 两次循环都迭代`n`次，时间复杂度都是$\mathcal{O}(n)$，所以最终是$\mathcal{O}(2n)$. 空间上构造了一个size是`n`的`dict`。
-* Time complexity: $\mathcal{O}(n)$
-* Space complexity: $\mathcal{O}(n)$
+* **Time complexity:** $\mathcal{O}(n)$
+* **Space complexity:** $\mathcal{O}(n)$
 
 
 ### 🟢 Solution 2: Hash Map (One Pass)
@@ -107,8 +109,8 @@ class Solution:
             d[x] = i
 ```
 
-* Time complexity: $\mathcal{O}(n)$
-* Space complexity: $\mathcal{O}(n)$
+* **Time complexity:** $\mathcal{O}(n)$
+* **Space complexity:** $\mathcal{O}(n)$
 
 ## Backlinks
 - [Leetcode 笔记目录](Leetcode笔记目录.md)
