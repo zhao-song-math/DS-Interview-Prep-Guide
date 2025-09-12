@@ -97,7 +97,7 @@ Solution中没有执行`l1, l2 = list1, list2`，用了原有的`list1`和`list2
 ### 🟢 Solution 1 (Recursion)
 
 #### 解题思路
-**核心思想：** 值小的节点先放，递归合并两链表剩下的部分。
+**核心思想：** 使用[递归算法](Recursion.md)。值小的节点先放，递归合并两链表剩下的部分。
 - **递归过程**：将两个链表当前节点值较小的那个节点作为当前合并链表的“头结点”，并把问题缩小（从两个链表里“去掉”这个“头结点”，只考虑剩余几点）
 - **终止条件**：一个链表空了，直接把另一个链表挂上去
 - **返回结果**
@@ -249,3 +249,8 @@ class Solution:
 #### 复杂度分析
 * **Time complexity:** $\mathcal{O}(n)$. 两个链表里的每个节点都被访问。
 * **Space complexity:** $\mathcal{O}(n)$. 递归栈的深度。
+
+## Backlinks
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
+- [Linked List](Linked_List.md)
+- [Recursion](Recursion.md)

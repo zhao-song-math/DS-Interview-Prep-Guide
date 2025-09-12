@@ -5,7 +5,8 @@ import os
 import re
 
 # notes 文件夹的路径（相对于 utils）
-NOTES_DIR = os.path.dirname(os.path.abspath(__file__))
+CURR_DIR = os.path.dirname(os.path.abspath(__file__)) # 当前文件夹  
+NOTES_DIR = os.path.dirname(CURR_DIR) # 返回上一层文件夹
 # NOTES_DIR = os.path.join(os.path.dirname(__file__), "../Leetcode_notes")
 
 # 将文件名转为链接显示格式（去掉扩展名，替换符号）

@@ -14,6 +14,9 @@
 - [242. Valid Anagram](242-Valid_Anagram.md)
 #### [List](List.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
+#### [Linked List](Linked_List.md)
+- [206. Reverse Linked List](206-Reverse_Linked_List.md)
+- [21. Merge Two Sorted Lists](21-Merge_Two_Sorted_Lists.md)
 #### [Stack](Stack.md)
 - [20. Valid Parentheses](20-Valid_Parentheses.md)
 #### Queue 
@@ -46,6 +49,8 @@
 #### Sliding Window 
 
 #### [Recursion](Recursion.md)
+- [206. Reverse Linked List](206-Reverse_Linked_List.md)
+- [21. Merge Two Sorted Lists](21-Merge_Two_Sorted_Lists.md)
 #### Backtracking 
 
 #### Breadth-First Search
@@ -59,6 +64,7 @@
 #### Greedy 
 
 #### [Binary Search](Binary_Search.md)
+- [33. Search in Rotated Sorted Array](33-Search_in_Rotated_Sorted_Array.md)
 #### [Sorting](Sorting.md)
 - [242. Valid Anagram](242-Valid_Anagram.md)
 #### Search 

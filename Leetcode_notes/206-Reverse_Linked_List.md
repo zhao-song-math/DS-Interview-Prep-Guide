@@ -286,3 +286,8 @@ class Solution:
 **复杂度分析**
 * **Time complexity:** $\mathcal{O}(n)$. 每个节点恰好处理一次
 * **Space complexity:** $\mathcal{O}(n)$. 递归栈深度为链表长度 n。
+
+## Backlinks
+- [Leetcode 笔记目录](Leetcode笔记目录.md)
+- [Linked List](Linked_List.md)
+- [Recursion](Recursion.md)

@@ -14,3 +14,4 @@
 - [Leetcode 笔记目录](Leetcode笔记目录.md)
 - [125. Valid Palindrome](125-Valid_Palindrome.md)
 - [15. 3Sum](15-3Sum.md)
+- [Linked List](Linked_List.md)
